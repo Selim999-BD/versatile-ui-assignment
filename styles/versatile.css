@@ -411,6 +411,7 @@ input::placeholder{
     color: #fff;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 40px;
 }
 .review-area{
     background-image: url(../images/image\ 3.png);
@@ -419,8 +420,6 @@ input::placeholder{
     background-size: cover;
     display: flex;
     justify-content: right;
-    
-    
 }
 .review-contain{
     max-width: 500px;
@@ -560,16 +559,18 @@ ul{
 .gender{
     width:40%;
     padding: 10px 15px;
+    margin-left: 15px;
 }
 input{
     font-size: 26px;
     background-color: #2c2c2c;
     border:1px solid rgb(83, 83, 83);
-    width:40%;
+    width:35%;
     margin: 10px 0;
     padding: 5px 15px;
     margin-right: 5px;
     border-radius: 10px;
+    margin-left: 15px;
 }
 
 
