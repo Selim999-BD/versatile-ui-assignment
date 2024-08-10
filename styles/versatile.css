@@ -364,7 +364,6 @@ input::placeholder{
 }
 .team-image-contain{
     margin-top: 80px;
-    background-color: rgb(46, 46, 46);
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -391,13 +390,13 @@ input::placeholder{
     height:300px;
    margin: 30px;
 }
+
 .team-img{
     height: 360px;
     
 }
 .img-team>img{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),#2c2c2c);
-    background-position: center;
+    filter: brightness(60%);
 }
 .img-detail{
     position: relative;
