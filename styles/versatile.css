@@ -29,7 +29,7 @@ main{
 }
 .navber-wrapper{
     background-image: linear-gradient(rgba(17, 17, 17, 1),rgba(19, 19, 19, 0.753));
-    height:720px;
+    height:712px;
 }
 .navber{
     display: flex;
@@ -114,6 +114,9 @@ main{
 .btn-area{
     padding-bottom: 30px;
 }
+.hero-img{
+    position: relative;
+}
 .free-video{
     background-color: #3b3b3b62;
     max-width: 180px;
@@ -121,8 +124,8 @@ main{
     border-radius: 10px;
     padding: 15px 10px;
     position: absolute;
-    top:300px;
-    right: 320px;
+    top:130px;
+    right: 25px;
 }
 .video-title{
     font-size: 2.5rem;
@@ -135,7 +138,7 @@ main{
 }
 .box{
     position: absolute;
-    top:450px
+    top:300px
 }
 .video-tutorial{
     display: flex;
@@ -145,7 +148,7 @@ main{
     padding: 10px;
     border-radius: 10px;
     position: absolute;
-    top:550px;
+    top:450px;
 }
 .red-bok{
     width: 60px;
@@ -328,6 +331,7 @@ td,th{
     max-width: 560px;
     margin-top: 40px;
 }
+
 input{
     font-size: 27px;
     background-color: #2c2c2c;
@@ -337,6 +341,9 @@ input{
     margin-right: 10px;
     border-radius: 10px;
     width:40%
+}
+input:focus{
+    color: white;
 }
 .gender,
 .option-fac{
@@ -526,7 +533,7 @@ ul{
         display: none;
     }
     .navber-wrapper{
-        height:1200px;
+        height:1195px;
     }
     /* navber responsive end */
 
@@ -534,16 +541,11 @@ ul{
     .hero{
         flex-direction: column;
     }
-    .free-video{
-        top:800px;
-        right:60px
-    }
+    
     .box{
         display: none;
     }
-    .video-tutorial{
-        top:1050px
-    }
+    
     .icon{
         display: block;
         position: absolute;
@@ -576,6 +578,11 @@ ul{
     input{
     font-size: 18px;
 }
+.option-fac {
+    width: 92%;
+    text-align: center;
+    margin-left: 12px;
+}
 input{
     max-width: 35%;
     margin-left: 10px;
@@ -583,6 +590,9 @@ input{
 .gender{
     max-width:44%;
     margin-left: 10px;
+}
+.btn-position{
+    margin-left: 40%;
 }
 /* team responsive */
 .team-image-contain{
@@ -598,7 +608,7 @@ input{
 }
 #btn-position{
     position: absolute;
-    top:700px
+    top:650px
 }
 
 /* footer responsive  */
