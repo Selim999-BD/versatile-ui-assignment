@@ -590,12 +590,15 @@ input{
 }
 
 /* about section responsive */
+.about{
+    position: relative;
+}
 .about-des{
     flex-direction: column;
 }
 #btn-position{
     position: absolute;
-    top:8300px
+    top:700px
 }
 
 /* footer responsive  */
